@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=alternative-DR
+#SBATCH -M ukko
+#SBATCH -p gpu
+#SBATCH -o experiments/sample_sizes/jobs/logs/%A_alternative_DR_%a.log
+#SBATCH --cpus-per-gpu=4
+#SBATCH --mem-per-gpu=10GB
+#SBATCH --time=2:00:00
+#SBATCH --array=1-10
+#SBATCH -G 1
+
+module load Python/3.10.4-GCCcore-11.3.0
+source /proj/seplauri/python3104/bin/activate
+python3 experiments/sample_sizes/train_alternative_DR.py $SLURM_ARRAY_TASK_ID jets

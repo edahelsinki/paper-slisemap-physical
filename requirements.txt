@@ -1,0 +1,16 @@
+slisemap>=1.4.0
+scikit-learn
+rdkit
+mordred
+matplotlib
+pandas
+numpy
+scipy
+pyarrow
+IPython
+seaborn
+torch
+joblib
+ipywidgets
+black
+jupyter
