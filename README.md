@@ -87,7 +87,7 @@ The arguments in the python command are:
 
 Finally, to generate the plot, run
 ```
-python3 SI/experiments/ecml_plot.py
+python3 SI/experiments/sm_stability_plot.py
 ```
 after having modified in the appropriate results directories in the same script.
 The generated plot can be found at `SI/experiments/figures/slisemap_stability.pdf`.
