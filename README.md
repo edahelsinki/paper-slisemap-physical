@@ -9,6 +9,13 @@ The files are structured as follows:
 - The source code for the performance measures are in `experiments`.
 
 
+## Citation
+
+>  __Seppäläinen L, Björklund A, Besel V, Puolamäki K__ (2024)  
+>  *Using slisemap to interpret physical data*.  
+>  PLoS ONE 19(1): e0297714. DOI: [10.1371/journal.pone.0297714](https://doi.org/10.1371/journal.pone.0297714)
+
+
 ## Datasets
 
 ### Volatile organic compounds: GeckoQ
