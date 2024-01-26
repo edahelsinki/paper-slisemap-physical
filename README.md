@@ -1,4 +1,4 @@
-# Using Slisemap to Interpret Physical Data
+# Using [Slisemap](https://github.com/edahelsinki/slisemap) to Interpret Physical Data
 
 These are the auxiliary files for the "Using Slisemap to Interpret Physical Data" paper.
 
@@ -39,7 +39,7 @@ The `data` directory contains a `qm9_interpretable.feather` file with the interp
 
 ## Models
 
-The `models` directory contains three pre-trained Slisemap models (`*.sm`) that were used for the main Slisemap plots in the paper. The `train.py` script will recreate (retrain) these models, if they are removed.
+The `models` directory contains three pre-trained [Slisemap](https://github.com/edahelsinki/slisemap) models (`*.sm`) that were used for the main Slisemap plots in the paper. The `train.py` script will recreate (retrain) these models, if they are removed.
 
 ## Experiments
 
